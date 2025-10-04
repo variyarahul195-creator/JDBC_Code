@@ -4,7 +4,7 @@ package MyPackage;
 public class Main {
 	public static void main(String[] args) {
 		
-		student st = new student();
+		JDBC_DB_create st = new JDBC_DB_create();
 		//st.createDatabase();
 		st.createTable();
 

@@ -6,7 +6,7 @@ import java.sql.Statement;
 
 
 
-public class student {
+public class JDBC_DB_create {
 	public void createDatabase() {	
 		try {
 			String url ="jdbc:mysql://localhost:3306/";
