@@ -6,9 +6,11 @@ public class Main {
 		
 		JDBC_DB_create st = new JDBC_DB_create();
 		JDBC_Table_create tb = new JDBC_Table_create();
+		JDBC_Data_create dc=new JDBC_Data_create();
 		//st.createDatabase();
-		tb.createTable();
-
+		//tb.createTable();
+		dc.DataCreate();
+		
 	}
 
 }
